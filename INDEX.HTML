@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fresh Tea Leaves</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Fresh Tea Leaves Company</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Pure & Natural Tea Leaves</h2>
+    <p>We supply fresh and organic tea leaves across Tanzania.</p>
+    <button onclick="document.getElementById('order').scrollIntoView();">
+        Order Now
+    </button>
+</section>
+
+<section id="order" class="order-section">
+    <h2>Place Your Order</h2>
+    <form>
+        <label>Full Name:</label>
+        <input type="text" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" required>
+
+        <label>Select Tea Type:</label>
+        <select>
+            <option>Green Tea</option>
+            <option>Black Tea</option>
+            <option>Herbal Tea</option>
+        </select>
+
+        <label>Quantity (Kg):</label>
+        <input type="number" min="1" required>
+
+        <label>Delivery Address:</label>
+        <textarea required></textarea>
+
+        <button type="submit">Submit Order</button>
+    </form>
+</section>
+
+<footer><p>Group Assigment</p>
+    <!-- <p>© 2026 Fresh Tea Leaves Company</p> -->
+</footer>
+
+</body>
+</html>
