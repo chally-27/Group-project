@@ -1,0 +1,135 @@
+{
+  "app": {
+    "name": "DawaSalama",
+    "tagline": "Mshauri wa Dawa za Mitishamba na Dawa za Kizungu"
+  },
+  "nav": {
+    "patient": "Mgonjwa",
+    "nurse": "Muuguzi",
+    "history": "Historia",
+    "education": "Elimu",
+    "settings": "Mipangilio"
+  },
+  "network": {
+    "online": "Mtandao wa AI uko tayari",
+    "offline": "Unatumia hifadhidata ya kawaida. Ushauri wa AI hautapatikana."
+  },
+  "patient": {
+    "title": "Angalia Mwingiliano wa Dawa",
+    "selectHerbs": "Chagua Mimea ya Mitishamba",
+    "searchHerbs": "Tafuta mimea...",
+    "selectMeds": "Chagua Dawa za Kizungu",
+    "searchMeds": "Tafuta dawa...",
+    "condition": "Hali ya Afya / Ugonjwa",
+    "selectCondition": "Chagua hali ya afya",
+    "extraInfo": "Maelezo ya Ziada",
+    "extraInfoPlaceholder": "Andika maelezo mengine muhimu...",
+    "checkInteraction": "Angalia Mwingiliano",
+    "checking": "Inaangalia...",
+    "saveReport": "Hifadhi Ripoti",
+    "print": "Chapisha",
+    "share": "Shiriki",
+    "offlineWarning": "Hali ya Nje ya Mtandao — Ushauri wa Msingi",
+    "noHerbsSelected": "Tafadhali chagua angalau mmea mmoja",
+    "noMedsSelected": "Tafadhali chagua angalau dawa moja"
+  },
+  "nurse": {
+    "title": "Tathmini ya Kliniki",
+    "patientInfo": "Taarifa za Mgonjwa",
+    "age": "Umri",
+    "gender": "Jinsia",
+    "male": "Me",
+    "female": "Ke",
+    "weight": "Uzito (kg)",
+    "pregnant": "Mjamzito",
+    "yes": "Ndiyo",
+    "no": "Hapana",
+    "chronicConditions": "Magonjwa Sugu",
+    "herbHistory": "Historia ya Mimea Iliyotumika",
+    "timing": "Muda Tangu Kutumia Mimea",
+    "timingOptions": {
+      "today": "Leo",
+      "yesterday": "Jana",
+      "thisWeek": "Wiki hii",
+      "lastWeek": "Wiki iliyopita",
+      "lastMonth": "Mwezi uliopita",
+      "moreThanMonth": "Zaidi ya mwezi"
+    },
+    "plannedMeds": "Dawa Zilizopangwa",
+    "clinicalNotes": "Maelezo ya Kliniki",
+    "clinicalNotesPlaceholder": "Andika maelezo ya kliniki...",
+    "specialPopulations": "Makundi Maalum",
+    "pediatric": "Watoto (<12yr)",
+    "elderly": "Wazee (>65yr)",
+    "renalImpairment": "Figo Dhaifu",
+    "hepaticImpairment": "Ini Dhaifu",
+    "generateReport": "Tengeneza Ripoti ya Kliniki",
+    "generating": "Inatengeneza..."
+  },
+  "history": {
+    "title": "Historia ya Mashauriano",
+    "noHistory": "Hakuna mashauriano yaliyohifadhiwa",
+    "filterAll": "Yote",
+    "filterPatient": "Mgonjwa",
+    "filterNurse": "Muuguzi",
+    "filterHigh": "Hatari Kubwa",
+    "filterMedium": "Tahadhari",
+    "filterLow": "Salama",
+    "delete": "Futa",
+    "export": "Hamisha CSV",
+    "confirmDelete": "Una uhakika unataka kufuta?",
+    "viewReport": "Tazama Ripoti"
+  },
+  "education": {
+    "title": "Elimu ya Dawa za Mitishamba",
+    "didYouKnow": "Je, unajua?",
+    "whatIsWashout": "Washout Period ni Nini?",
+    "washoutExplain": "Ni muda unaohitajika kwa mwili kufuta kabisa athari za dawa ya mitishamba kabla ya kuanza dawa za kizungu. Hii inasaidia kuzuia mwingiliano hatari.",
+    "commonHerbs": "Mimea ya Kawaida Tanzania",
+    "interactions": "Mwingiliano",
+    "uses": "Matumizi",
+    "safety": "Usalama"
+  },
+  "settings": {
+    "title": "Mipangilio",
+    "language": "Lugha",
+    "darkMode": "Hali ya Giza",
+    "clearData": "Futa Data Zote za Offline",
+    "clearDataConfirm": "Una uhakika unataka kufuta data zote? Hii haiwezi kurudishwa.",
+    "cleared": "Data zote zimefutwa",
+    "about": "Kuhusu Programu",
+    "version": "Toleo",
+    "aboutText": "DawaSalama ni mfumo wa kushauri kuhusu mwingiliano wa dawa za mitishamba na dawa za kizungu kwa Tanzania."
+  },
+  "risk": {
+    "high": "HATARI KUBWA",
+    "medium": "TAHADHARI",
+    "low": "SALAMA"
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Hitilafu imetokea",
+    "retry": "Jaribu tena",
+    "close": "Funga",
+    "save": "Hifadhi",
+    "cancel": "Ghairi",
+    "back": "Rudi",
+    "search": "Tafuta"
+  },
+  "conditions": {
+    "malaria": "Malaria",
+    "hiv": "VVU/UKIMWI",
+    "diabetes": "Kisukari",
+    "hypertension": "Shinikizo la Damu",
+    "tuberculosis": "Kifua Kikuu (TB)",
+    "asthma": "Pumu",
+    "epilepsy": "Kifafa",
+    "heartDisease": "Ugonjwa wa Moyo",
+    "kidneyDisease": "Ugonjwa wa Figo",
+    "liverDisease": "Ugonjwa wa Ini",
+    "pregnancy": "Ujauzito",
+    "infection": "Maambukizi",
+    "pain": "Maumivu",
+    "other": "Nyingine"
+  }
+}

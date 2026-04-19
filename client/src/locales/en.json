@@ -1,0 +1,135 @@
+{
+  "app": {
+    "name": "DawaSalama",
+    "tagline": "Herbal & Western Medicine Interaction Advisor"
+  },
+  "nav": {
+    "patient": "Patient",
+    "nurse": "Nurse",
+    "history": "History",
+    "education": "Education",
+    "settings": "Settings"
+  },
+  "network": {
+    "online": "AI network is ready",
+    "offline": "Using local database. AI advice is not available."
+  },
+  "patient": {
+    "title": "Check Drug Interactions",
+    "selectHerbs": "Select Herbal Medicines",
+    "searchHerbs": "Search herbs...",
+    "selectMeds": "Select Western Medicines",
+    "searchMeds": "Search medicines...",
+    "condition": "Health Condition / Disease",
+    "selectCondition": "Select health condition",
+    "extraInfo": "Additional Information",
+    "extraInfoPlaceholder": "Write any other important details...",
+    "checkInteraction": "Check Interaction",
+    "checking": "Checking...",
+    "saveReport": "Save Report",
+    "print": "Print",
+    "share": "Share",
+    "offlineWarning": "Offline Mode — Basic Advice",
+    "noHerbsSelected": "Please select at least one herb",
+    "noMedsSelected": "Please select at least one medicine"
+  },
+  "nurse": {
+    "title": "Clinical Assessment",
+    "patientInfo": "Patient Information",
+    "age": "Age",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "weight": "Weight (kg)",
+    "pregnant": "Pregnant",
+    "yes": "Yes",
+    "no": "No",
+    "chronicConditions": "Chronic Conditions",
+    "herbHistory": "Herbal Medicine History",
+    "timing": "Time Since Last Herb Use",
+    "timingOptions": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "thisWeek": "This week",
+      "lastWeek": "Last week",
+      "lastMonth": "Last month",
+      "moreThanMonth": "More than a month"
+    },
+    "plannedMeds": "Planned Medications",
+    "clinicalNotes": "Clinical Notes",
+    "clinicalNotesPlaceholder": "Write clinical notes...",
+    "specialPopulations": "Special Populations",
+    "pediatric": "Pediatric (<12yr)",
+    "elderly": "Elderly (>65yr)",
+    "renalImpairment": "Renal Impairment",
+    "hepaticImpairment": "Hepatic Impairment",
+    "generateReport": "Generate Clinical Report",
+    "generating": "Generating..."
+  },
+  "history": {
+    "title": "Consultation History",
+    "noHistory": "No saved consultations",
+    "filterAll": "All",
+    "filterPatient": "Patient",
+    "filterNurse": "Nurse",
+    "filterHigh": "High Risk",
+    "filterMedium": "Caution",
+    "filterLow": "Safe",
+    "delete": "Delete",
+    "export": "Export CSV",
+    "confirmDelete": "Are you sure you want to delete?",
+    "viewReport": "View Report"
+  },
+  "education": {
+    "title": "Herbal Medicine Education",
+    "didYouKnow": "Did you know?",
+    "whatIsWashout": "What is a Washout Period?",
+    "washoutExplain": "It is the time needed for your body to completely clear the effects of herbal medicine before starting western medicine. This helps prevent dangerous interactions.",
+    "commonHerbs": "Common Tanzanian Herbs",
+    "interactions": "Interactions",
+    "uses": "Uses",
+    "safety": "Safety"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "darkMode": "Dark Mode",
+    "clearData": "Clear All Offline Data",
+    "clearDataConfirm": "Are you sure you want to clear all data? This cannot be undone.",
+    "cleared": "All data has been cleared",
+    "about": "About App",
+    "version": "Version",
+    "aboutText": "DawaSalama is an advisory system for herbal and western medicine interactions for Tanzania."
+  },
+  "risk": {
+    "high": "HIGH RISK",
+    "medium": "CAUTION",
+    "low": "SAFE"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "search": "Search"
+  },
+  "conditions": {
+    "malaria": "Malaria",
+    "hiv": "HIV/AIDS",
+    "diabetes": "Diabetes",
+    "hypertension": "Hypertension",
+    "tuberculosis": "Tuberculosis (TB)",
+    "asthma": "Asthma",
+    "epilepsy": "Epilepsy",
+    "heartDisease": "Heart Disease",
+    "kidneyDisease": "Kidney Disease",
+    "liverDisease": "Liver Disease",
+    "pregnancy": "Pregnancy",
+    "infection": "Infection",
+    "pain": "Pain",
+    "other": "Other"
+  }
+}

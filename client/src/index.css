@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply min-h-screen;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-green-mid/30 rounded-full;
+  }
+}
+
+@layer components {
+  .risk-badge-high {
+    @apply bg-risk-high text-white px-3 py-1 rounded-full text-sm font-semibold;
+  }
+  .risk-badge-medium {
+    @apply bg-risk-medium text-white px-3 py-1 rounded-full text-sm font-semibold;
+  }
+  .risk-badge-low {
+    @apply bg-risk-low text-white px-3 py-1 rounded-full text-sm font-semibold;
+  }
+}
+
+/* Dark mode overrides */
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
